@@ -1,0 +1,9 @@
+ls -r [fileName] should recursive search only specified folder 
+ls -r [int] should recursive search only to depth [int]
+
+ls -s should mention the size (ie. bits) 
+	should also work for folders, check the size of all sub-files -folders and display that value.
+
+Look into the possibility of integrating TAB autocompletion. At the moment standard autocomplete only works
+for files in the current directory. IE. \documents\myfiles: cd sub_folder\A... will auto match only files in 
+the myfiles folder not the sub_folder.
